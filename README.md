@@ -5,6 +5,8 @@
 # 주요기능
 ### 얼굴등록
 
+![얼굴등록](https://github.com/user-attachments/assets/ebf4e8ab-5807-4965-b407-91735a569de6)
+
 ### 실시간 방송
 
 ![실시간 방송](https://github.com/user-attachments/assets/89385d12-6b22-444f-9b52-6d345d87c2d2)
