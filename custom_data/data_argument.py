@@ -5,17 +5,12 @@ os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
-# # 이미지 파일이 있는 디렉토리 경로
-# image_dir = r'C:\Users\User\Desktop\prprprpr\concat_dataset\5_background\pre'
-
-# # 증강된 이미지를 저장할 디렉토리 경로
-# save_directory = r'C:\Users\User\Desktop\prprprpr\concat_dataset\5_background\pre'
 
 # 이미지 파일이 있는 디렉토리 경로
-image_dir = r'C:\windows_v1.8.1\windows_v1.8.1\data\knifes'
+image_dir = r'경로'
 
 # 증강된 이미지를 저장할 디렉토리 경로
-save_directory = r'C:\windows_v1.8.1\windows_v1.8.1\data\knifes'
+save_directory = r'경로'
 os.makedirs(save_directory, exist_ok=True)
 
 # 디렉토리 내 모든 이미지 파일 처리
