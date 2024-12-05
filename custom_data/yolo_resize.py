@@ -18,8 +18,8 @@ if __name__ == '__main__':
 
     resize_width = args.resize_width
     resize_height = args.resize_height
-    source_path = r'C:\windows_v1.8.1\windows_v1.8.1\data\knifes'
-    resize_path = r'C:\windows_v1.8.1\windows_v1.8.1\data\knifes'
+    source_path = r'경로'
+    resize_path = r'경로'
     
     # 저장할 경로 없으면 생성
     if not os.path.exists(resize_path):
