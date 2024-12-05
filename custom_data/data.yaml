@@ -6,5 +6,5 @@ names:
 - knife
 - face
 nc: 6
-train: C:/Users/DS/Desktop/custom_data\train.txt
-val: C:/Users/DS/Desktop/custom_data\val.txt
+train: ./custom_data/train.txt
+val: ./custom_data/val.txt
