@@ -1,7 +1,7 @@
 import os
 
 # 대상 디렉터리 설정
-directory = r'C:\Users\User\Desktop\prprprpr\concat_dataset\4_knife\label'
+directory = r'경로\label'
 
 # 지정된 디렉터리 내의 모든 파일을 순회
 for filename in os.listdir(directory):
