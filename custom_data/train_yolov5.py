@@ -3,8 +3,8 @@ from glob import glob
 from sklearn.model_selection import train_test_split
 import yaml
 
-# 절대 경로로 데이터셋 경로 정의
-dataset_path = r'C:/Users/DS/Desktop/custom_data' 
+# 데이터셋 경로 정의
+dataset_path = r'경로' 
 train_images_path = os.path.join(dataset_path, 'images/*')
 
 # 이미지 리스트 가져오기
@@ -43,7 +43,7 @@ with open(yaml_file_path, 'w') as f:
 print(data)
 
 # YOLOv5 디렉토리로 이동
-os.chdir('C:/Users/DS/Desktop/yolov5') 
+os.chdir('욜로 경로') 
 
 # 훈련 실행
 os.system(f'python train.py --img 416 --batch 16 --epochs 50 --data {yaml_file_path} --cfg ./models/yolov5s.yaml --weights yolov5s.pt --name concat_result')
