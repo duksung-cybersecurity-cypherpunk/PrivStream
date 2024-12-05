@@ -18,6 +18,5 @@ def create_empty_txt_for_images(directory):
                     pass  # 빈 txt 파일 생성
 
 # 예시로 사용할 디렉터리 경로 설정
-#example_directory = r"C:\Users\DS\Desktop\test\images"  # 여기에 실제 디렉터리 경로를 입력
-example_directory =r"C:\Users\DS\Desktop\mk_dataset\background"
+example_directory =r"경로"
 create_empty_txt_for_images(example_directory)
