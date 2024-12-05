@@ -33,7 +33,6 @@ from example_app.views import hello
 from example_app.views import hello_rest_api
 from example_app.views import home
 from webcam.views import *
-from webcam_test.views import *
 from users.views import *
 from django.conf.urls.static import static
 from django.conf import settings
@@ -47,5 +46,4 @@ urlpatterns = [
     path("chat/", include("chat.urls")),
     path('api/users/', include('users.urls')),
     #path('webcam/', include('webcam.urls')),
-    #path('webcam_test/', include('webcam_test.urls')),
 ]  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
