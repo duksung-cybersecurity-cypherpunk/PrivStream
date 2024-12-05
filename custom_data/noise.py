@@ -4,10 +4,10 @@ import os
 from pathlib import Path
 
 # 이미지 파일이 있는 디렉토리 경로
-image_dir = r'C:\Users\User\Desktop\prprprpr\concat_dataset\5_background\pre'
+image_dir = r'경로'
 
 # 증강된 이미지를 저장할 디렉토리 경로
-save_directory = r'C:\Users\User\Desktop\prprprpr\concat_dataset\5_background\pre'
+save_directory = r'경로'
 os.makedirs(save_directory, exist_ok=True)
 
 # 노이즈 추가 함수 정의 (가우시안 노이즈)
