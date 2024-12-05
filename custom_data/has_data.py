@@ -1,7 +1,7 @@
 import os
 
 # 대상 디렉터리 설정
-directory = r'C:\Users\DS\Desktop\custom_data\images'
+directory = r'경로'
 
 # 지정된 디렉터리 내의 모든 파일을 순회
 for filename in os.listdir(directory):
