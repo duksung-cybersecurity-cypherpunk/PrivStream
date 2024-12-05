@@ -1,0 +1,10 @@
+names:
+- lincense_plate
+- invoice
+- id_card
+- license_card
+- knife
+- face
+nc: 6
+train: C:/Users/DS/Desktop/custom_data\train.txt
+val: C:/Users/DS/Desktop/custom_data\val.txt
